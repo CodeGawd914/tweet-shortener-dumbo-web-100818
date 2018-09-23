@@ -14,4 +14,5 @@ end
   
   def word_substituter(tweets)
     
+    dixt = dictionary
   end
