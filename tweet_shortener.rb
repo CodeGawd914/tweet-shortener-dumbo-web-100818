@@ -8,8 +8,8 @@ def dictionary
   "four" => '4',
   'be' => 'b',
   'you' => 'u',
-"at" => "@",
-"and" => "&"
+  "at" => "@",
+  "and" => "&"
 end
   
   def word_substituter(string)
