@@ -11,4 +11,5 @@ def dictionary
   
   def word_substituter(string)
     string.split(" ").collect do |words|
-      if dictionary.keys.include? word
+      if dictionary.keys.include? words
+        words = dictionary.
