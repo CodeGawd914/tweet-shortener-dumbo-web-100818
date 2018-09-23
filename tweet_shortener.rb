@@ -14,3 +14,7 @@ def dictionary
     string.split(" ").each do |words|
       if dictionary.keys.include? words
         return.push(dictionary[words])
+      end
+    end
+    return.join(" ")
+  end
