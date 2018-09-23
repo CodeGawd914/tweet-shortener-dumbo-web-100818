@@ -10,4 +10,5 @@ def dictionary
   }
   
   def word_substituter(string)
-    string.split(" ")
+    string.split(" ").collect do |words|
+      if 
