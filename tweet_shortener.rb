@@ -38,3 +38,4 @@ end
     end
   end
     
+    shortended_tweet_truncator
