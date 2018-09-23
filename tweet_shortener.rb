@@ -17,5 +17,5 @@ end
     dixt = dictionary
     words.collect do |word|
       dixt.collect do |key, value|
-        if
+        if word == key
   end
