@@ -27,5 +27,6 @@ end
   end
   
   def bulk_tweet_shortener(array)
-    array
+    array.collect { |tweet| puts word_substituter(tweet)}
+  end
     
