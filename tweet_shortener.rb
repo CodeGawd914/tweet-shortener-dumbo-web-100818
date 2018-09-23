@@ -38,4 +38,6 @@ end
     end
   end
     
-    shortended_tweet_truncator
+  def shortended_tweet_truncator(tweet)
+     
+  end
