@@ -39,5 +39,5 @@ end
   end
     
   def shortened_tweet_truncator(tweet)
-     tweet = tweet[0]
+     tweet = tweet[0..136] + 
   end
