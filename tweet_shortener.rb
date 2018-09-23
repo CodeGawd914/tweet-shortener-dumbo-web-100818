@@ -18,4 +18,5 @@ end
     words.collect do |word|
       dixt.collect do |key, value|
         if word == key
+          word.replace(value)
   end
