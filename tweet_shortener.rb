@@ -13,4 +13,4 @@ def dictionary
     return = []
     string.split(" ").each do |words|
       if dictionary.keys.include? words
-        
+        return.push(dictionary[words])
